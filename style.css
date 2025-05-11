@@ -1,19 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shafarik&family=Underdog&display=swap');
 body {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #c4acee;
-    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+	position: relative;
+    background-color: #ede5dd;
 }
-
-body h1 {
-    width: 80%;
-    text-align: center;
-    font-size: 80px;
-    font-family: sans-serif;
+header{
+	font-family: "Underdog", system-ui;
+	text-align: center;
+}
+main, footer{
+	font-family: "Exo 2", sans-serif;
+}
+footer{
+	text-align: center;
+	padding: 0px;
+    margin: 0px;
+	background-color: #036C56;
+	position: absolute;
+	width: 100%;
+	bottom: -20px;
+	hr{
+		color: #ffffff;
+	}
+}
+.header_box{
+    padding: 20px 15px;
+	width: 100%;
+	border-bottom: 2px solid #036C56;
+}
+.header_container{
+	background-color: #3EB489;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+}
+.red{
+	color: red;
 }
