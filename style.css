@@ -23,25 +23,24 @@ nav{
 	height: 30px;
 	position: sticky;
 	top: 0px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+    padding:8px;
 	border-bottom: 3px solid #023f32;
 	background-color: #036C56;
-	width: 100%;
 }
 ul{
     list-style: none;
     padding: none;
     display: flex;
 	padding: 0px;
+	padding:0px 10px;
     margin: 0px;
-    justify-content: space-between;
+	gap: 30px;
 }
 li{
 	transition: 2s;
 	text-align: center;
 	padding: 5px;
-	width: 25%;
+	width: 22%;
 }
 li a{
     text-decoration: none;
