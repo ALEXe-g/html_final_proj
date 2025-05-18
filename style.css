@@ -6,6 +6,9 @@ body {
 	position: relative;
     background-color: #ede5dd;
 }
+main{
+	margin-bottom: 200px;
+}
 *{
 	font-family: "Exo 2", sans-serif;
 	scroll-behavior: smooth;
@@ -17,7 +20,12 @@ header{
 	h1{
 		font-family: "Underdog", system-ui;
 		text-align: center;
+		transition: 2s;
 	}
+	.im:hover+div>h1{
+        transform: rotate(3600deg) scale(0.7);
+	}
+	
 }
 nav{
 	height: 30px;
@@ -42,7 +50,7 @@ li{
 	padding: 5px;
 	width: 22%;
 }
-li a{
+a{
     text-decoration: none;
     color: black;
 }
@@ -64,32 +72,61 @@ li:hover{
     display: flex;
     flex-direction: row;
 }
-
 section{
-	padding: 60px;
-	height: 500px;
+	padding: 60px 60px 0px 60px;
 }
 article{
-    padding: 0px 10px;
+    padding: 30px;
 	margin-top: 5px;
 	border-top:3px solid #023f32;
-
+}
+.imgtextcontainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	p{
+		width: 500px;
+	}
+}
+.greynews{
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	background-color: rgb(212, 212, 212);
+	border: 1px solid dimgray;
+	border-radius: 5px;
+}
+.greyb{
+	width: 90%;
+	margin: auto;
+	padding: 20px;
+	background-color: rgb(186, 186, 186);
+	border: 1px solid dimgray;
+	border-radius: 5px;
 }
 footer{
 	text-align: center;
 	padding: 0px;
     margin: 0px;
 	background-color: #036C56;
+	border-top: 3px solid #023f32;
 	width: 100%;
 	position: absolute;	
-	bottom: -20px;
-	hr{
-		color: #ffffff;
-	}
+	bottom: -200px;
 }
 .red{
 	color: red;
 }
 .tpar {
 	text-indent: 40px;
+}
+.pb{
+	font-weight: bold;
+}
+.padd{
+	padding: 0px 20px;
+}
+.extramarg{
+	margin-top: 20px;
 }
