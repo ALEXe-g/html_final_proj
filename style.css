@@ -54,6 +54,7 @@ a{
 .header_box{
 	background-color: #3EB489;
     padding: 20px 15px;
+	width: 100%;
 }
 .header_container{
 	background-color: #3EB489;
@@ -130,6 +131,7 @@ footer{
 	margin-top: 20px;
 }
 .galary{
+	margin: auto;
 	text-align: center;
 	background-color: #3EB489;
 	border-bottom:3px solid #023f32;
