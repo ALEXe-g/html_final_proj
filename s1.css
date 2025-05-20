@@ -10,27 +10,7 @@ main{
     background-color: rgb(201, 201, 201);
     border-radius: 10px;
     text-align: center;
-    height: 90%;
 }
-.g{
-    display: none;
-    position: absolute;
-    top: 15%;
-    left: 15%;
-}
-.w{
-    display: none;
-    position: absolute;
-    top: 15%;
-    right:  15%;
-}
-@media(min-width: 767px) {
-    .g{
-        width: 50px;
-        display: block;
-    }
-    .w{
-        width: 50px;
-        display: block;
-    }
+img{
+    margin: auto;
 }
