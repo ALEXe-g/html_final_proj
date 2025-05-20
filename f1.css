@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shafarik&family=Underdog&display=swap');
+*{
+	font-family: "Exo 2", sans-serif;
+}
+body{
+    background-image: url("bg.webp");
+}
+main{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sign{
+    text-align: end;
+}
+form a{
+    text-decoration: none;
+    color: black;
+}
+.button{
+	padding: 5px;
+	width: 40%;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	border: 2px solid dimgray;
+	transition: 2s;
+	background-color: rgb(186, 186, 186);
+}
+.button:hover{
+	background-color: white;
+}
