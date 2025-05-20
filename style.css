@@ -22,6 +22,7 @@ header{
 	h1{
 		font-family: "Underdog", system-ui;
 		text-align: center;
+		margin: auto;
 		transition: 2s;
 	}
 	
@@ -54,7 +55,6 @@ a{
 .header_box{
 	background-color: #3EB489;
     padding: 20px 15px;
-	width: 100%;
 }
 .header_container{
 	background-color: #3EB489;
@@ -76,15 +76,11 @@ article{
 	width: 100%;
 }
 .greynews{
-	width: 80%;
+	width: 100%;
 	margin: auto;
-	padding: 20px;
-	background-color: rgb(212, 212, 212);
-	border: 1px solid dimgray;
-	border-radius: 5px;
 }
 .greyb{
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	padding: 20px;
 	background-color: rgb(186, 186, 186);
@@ -92,14 +88,10 @@ article{
 	border-radius: 5px;
 }
 .button{
-	padding: 5px;
-	width: 40%;
 	margin: auto;
 	margin-top: 10px;
 	text-align: center;
-	border: 2px solid dimgray;
 	transition: 2s;
-	background-color: rgb(186, 186, 186);
 }
 .imgnews{
 	display: flex;
@@ -131,7 +123,6 @@ footer{
 	margin-top: 20px;
 }
 .galary{
-	margin: auto;
 	text-align: center;
 	background-color: #3EB489;
 	border-bottom:3px solid #023f32;
@@ -175,5 +166,21 @@ footer{
 	.imgnews{
 		flex-direction: row;
 		justify-content: space-around;
+	}
+	.greynews{
+		width: 80%;
+		padding: 20px;
+		background-color: rgb(212, 212, 212);
+		border: 1px solid dimgray;
+		border-radius: 5px;
+	}
+	.button{
+		padding: 5px;
+		width: 40%;
+		border: 2px solid dimgray;
+		background-color: rgb(186, 186, 186);
+	}
+	.greyb{
+		width: 90%;
 	}
 }
